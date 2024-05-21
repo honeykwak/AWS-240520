@@ -13,7 +13,7 @@ spec:
         app: nginx
     spec:
       containers:
-      - image: honeykwak/argoupdater:2.0
+      - image: honeykwak/argoupdater:3.0
         name: nginx
         ports:
         - containerPort: 80
